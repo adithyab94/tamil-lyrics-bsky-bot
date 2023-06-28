@@ -14,7 +14,7 @@ export default async function getPostText() {
         text += line;
     }
 
-    const sequenceLength = Math.floor(Math.random() * (250 - 75 + 1)) + 75;
+    const sequenceLength = Math.floor(Math.random() * (250 - 50 + 1)) + 50;
 
     const spaceIndices = [];
     for (let i = 0; i < text.length; i++) {
