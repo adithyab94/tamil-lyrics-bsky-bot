@@ -2,7 +2,7 @@ import fs from 'fs';
 import readline from 'readline';
 
 export default async function getPostText() {
-    const fileStream = fs.createReadStream('./new2.txt');
+    const fileStream = fs.createReadStream('new2.txt');
     const rl = readline.createInterface({
         input: fileStream,
         crlfDelay: Infinity
